@@ -1,0 +1,176 @@
+@import url(https://github.com/necolas/normalize.css/blob/master/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body {
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/wood-_texture10531.jpg);
+    color: white;
+    font-family: 'Special Elite', cursive;
+    
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+/* ---- HEADER SECTION ---- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+header p {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+#title {
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+    color: rgb(255, 246, 238);
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 
+        0 -40px 100px, 0 0 2px, 0 0 1em #ffa844, 0 0 0.5em #ffa844, 0 0 0.1em #ffa844, 0 10px 3px #000;
+}
+
+
+#title span{
+    animation: blink linear infinite 0.5s;
+}
+#title span:nth-of-type(2){
+    animation: blink linear infinite 2s;
+}
+#title span:nth-of-type(3){
+    animation: blink linear infinite 3s;
+}
+
+@keyframes blink {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: #333;
+    }
+    80% {
+        
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #333;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #333;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 4em;
+}
+
+#image {
+    margin-bottom: 2em;
+    max-width: 100%;
+    display: block;
+    filter: drop-shadow(0 0 0.3em #ffa844);
+}
+
+
+/* ---- INFORMATION  SECTION ---- */
+
+
+#div-wave {
+    display: flex;
+    justify-content: center;
+}
+#wave {
+    filter: drop-shadow(0 0 0.3em #ffa844);
+    width: 25%;
+}
+#path {
+    fill: none; 
+    stroke: #fefefe;
+    stroke-width: 1px;
+    stroke-dasharray: 0;
+    stroke-dashoffset: 1000;
+    animation: dash 15s ease ;
+    animation-iteration-count: infinite;
+
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 1000;
+    }
+}
+
+#tribute-info {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ffa844, 0 0 0.5em #ffa844, 0 0 0.1em #ffa844, 0 10px 3px #000;
+    animation: blink linear infinite 5s;
+    margin-bottom: 2em;
+}
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ul li {
+    list-style: none;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgba(235, 159, 20, 0.0);
+    width: 80%;
+    font-size: 1.2em;
+}
+
+ul li:hover {
+    border-radius: 0.8em;
+    box-shadow:  0 0 2px, 0 0 1em #ffa844, 0 0 0.5em #ffa844, 0 0 0.1em #ffa844, 0 10px 3px #000, inset 0 0 2px, inset 0 0 1em #ffa844, inset 0 0 0.5em #ffa844, inset 0 0 0.1em #ffa844, inset 0 10px 3px #000;
+    transition: 0.5s;
+    background-color: rgba(235, 159, 20, 0.068);
+}
+
+
+ul li h3 {
+    text-shadow: 0 0 0.5em #ffa844;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/* ---- FOOTER SECTION ---- */
+footer {
+    text-align: center;
+}
+
+a:link {
+    color: #fefefe;
+    text-shadow: 0 0 0.25em #ffa844;
+}
