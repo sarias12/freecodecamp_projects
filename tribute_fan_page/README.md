@@ -37,7 +37,7 @@ The img element should be centered within its parent element.
 ### Preview in Codepen: 
 [ Build a Tribute Page - FreeCodeCamp by Sarias ](https://github.com/sarias12)
 
-![Screenshot](http://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png)
+![Screenshot](https://github.com/sarias12/freecodecamp_projects/blob/main/tribute_fan_page/tribute_page.png?raw=true)
  
 ## Author ⭐️
 * **Sergio Steben Arias Quintero** - [sarias12](https://github.com/sarias12)
