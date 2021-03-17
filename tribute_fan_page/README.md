@@ -35,7 +35,7 @@ The img element should responsively resize, relative to the width of its parent 
 The img element should be centered within its parent element.
 
 ### Preview in Codepen: 
-[ Build a Tribute Page - FreeCodeCamp by Sarias ](https://github.com/sarias12)
+[ Build a Tribute Page - FreeCodeCamp by Sarias ](https://codepen.io/sarias12/pen/XWNwWZQ)
 
 ![Screenshot](https://github.com/sarias12/freecodecamp_projects/blob/main/tribute_fan_page/tribute_page.png?raw=true)
  
