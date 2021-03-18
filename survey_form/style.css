@@ -1,0 +1,221 @@
+
+@import url(https://github.com/necolas/normalize.css/blob/master/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+:root {
+    --first-color: #4f69fe;
+    --second-color: #132354;
+    --third-color: #ffffff;
+    --fourth-color: #9860fd;
+}
+
+body {
+    background-color: var(--first-color);
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 0;
+}
+
+            /* ---- HEADER SECTION -----*/
+
+header {
+    color: var(--third-color);
+    text-align: center;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+        /* Main Title */
+
+#title {
+    font-size: 2em;
+    margin-top: 0;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+
+
+        /* Description */
+#description {
+    font-size: 1.2em;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#main {
+    margin: auto;
+    font-size: 1.2em;
+}
+
+
+        /* ----  SURVEY FORM SECTION  -----  */
+
+main {
+    color: var(--second-color);
+    display: flex;
+    align-items: center;
+    
+}
+
+main > div {
+    width: 100%;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--third-color);
+    padding: 2em;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 0;
+    border-radius: .5em .5em 0 0;
+    max-width: 720px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px -10px 20px, rgba(0, 0, 0, 0.23) 0px -6px 6px;
+}
+
+/* Text Inputs */
+
+::placeholder, :placeholder-shown {
+    font-family: 'Bree Serif', serif;
+    font-size: 1em;
+}
+
+input:focus, input {
+    font-family: 'Bree Serif', serif;
+    font-size: 1em;
+}
+
+input:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50%;
+    background-size: 25px;
+}
+
+input:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50%;
+    background-size: 25px;
+}
+
+#text-inputs {
+    display: flex;
+    flex-direction: column;
+}
+#text-inputs input {
+    height: 30px;
+    margin-top: .2em;
+    margin-bottom: 1em;
+    border-radius: .5rem;
+    border: none;
+    border-bottom: 2px var(--second-color) solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding-left: .5em;
+}
+    /* Dropdown */
+
+#dropdown {
+    font-family: 'Bree Serif', serif;
+    font-size: 19.2px;
+    border-radius: .5rem;
+    border: none;
+    margin-top: .2em;
+    border-bottom: 2px var(--second-color) solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding-left: .5em;
+}
+
+select, select option {
+    margin-bottom: 1em;
+    height: 30px;
+}
+    /*  Radibuttons and checkboxes group */
+
+fieldset {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+legend {
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+
+fieldset input {
+    display: none;
+}
+
+fieldset label {
+    display: flex;
+    margin: 0.2em;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+    
+}
+
+/* Labels for checked inputs */
+
+input:checked + label  {
+    color: var(--third-color);
+    background-color: var(--second-color);
+    transition: 0.5s;
+}
+
+
+    /* Text Area for bands */
+
+textarea {
+    font-family: 'Bree Serif', serif;
+    font-weight: lighter;
+    font-size: 1em;
+    margin-bottom: 1em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+textarea:hover, textarea:focus{
+    font-family: 'Bree Serif', serif;
+    font-size: 1em;
+}
+
+
+/* Submit Buttom */ 
+
+#div-submit {
+    display: flex;
+    justify-items: end;
+    align-items: end;
+}
+
+#submit {
+    color: var(--third-color);
+    max-width: 100px;
+    min-width: 100px;
+    font-size: 1em;
+    font-family: 'Bree Serif', serif;
+    height: 40px;
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--fourth-color);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin:auto
+}
+
+#submit:hover {
+    background-color: var(--second-color);
+    transition: .5s;
+}
+
+#name-label,
+#number-label,
+#email-label,
+#textarea-label {
+    margin-top: .2em;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
