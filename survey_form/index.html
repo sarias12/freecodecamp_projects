@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form - FreecodeCamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <!-- Header Section -->
+        <header>
+            <h1 id="title">Your favourite music</h1>
+            <p id="description">Music has always been an integral part of our lives. When we eat, play, dance, study, exercise and much more we are always listening to music. We want to know about your musical preferences. </p>
+        </header>
+
+        <!-- Main Section -->
+        <main>
+            <div>
+                <!-- Survey Form -->
+                <form id="survey-form">
+                    <div id="text-inputs">
+                        <label for="name" id="name-label">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        <label for="email" id="email-label">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                        <label for="number" id="number-label">Age:</label>
+                        <input type="number" name="number" id="number"  min="0" max="150" placeholder="0 to 105" required>
+                    </div>
+                    <label for="dropdown" id="dropdown-label">What is your favorite genre?</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="Electronic Dance">Electronic Dance</option>
+                        <option value="Rock">Rock</option>
+                        <option value="Jazz">Jazz</option>
+                        <option value="Dubstep">Dubstep</option>
+                        <option value="Rhythm and Blues">Rhythm and Blues</option>
+                        <option value="Techno">Techno</option>
+                        <option value="Country">Country</option>
+                        <option value="Electro">Electro</option>
+                        <option value="Indie">Indie</option>
+                        <option value="Pop">Pop</option>
+                    </select>
+
+                    <fieldset>
+                        <legend>Select what is your preferred time:</legend>
+
+                        <input type="radio" name="time" id="morning" value="morning">
+                        <label for="morning" id="morning-label">Morning</label>
+                        
+                        <input type="radio" name="time" id="afternoon" value="afternoon">
+                        <label for="afternoon" id="afternoon-label">Afternoon</label>
+
+                        <input type="radio" name="time" id="night" value="night">
+                        <label for="night" id="night-label">Night</label>
+
+                        <input type="radio" name="time" id="all-time" value="all-time">
+                        <label for="all-time" id="all-time-label">All time</label>
+
+                        <input type="radio" name="time" id="any-time" value="any-time">
+                        <label for="any-time" id="any-time-label">Any time</label>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>What devices do you listen to music on?</legend>
+
+                        <input type="checkbox" name="computer" id="computer" value="computer">
+                        <label for="computer" id="computer-label">Computer</label>
+                        
+                        <input type="checkbox" name="stereo" id="stereo" value="stereo">
+                        <label for="stereo" id="stereo-label">Stereo</label>
+
+                        <input type="checkbox" name="smartphone" id="smartphone" value="smartphone">
+                        <label for="smartphone" id="smartphone-label">Smartphone</label>
+
+                        <input type="checkbox" name="tv" id="tv" value="tv">
+                        <label for="tv" id="tv-label">TV</label>
+
+                        <input type="checkbox" name="tablet" id="tablet" value="tablet">
+                        <label for="tablet" id="tablet-label">Tablet</label>
+
+                    </fieldset>
+                    <label for="textarea" id="textarea-label">Which are your favorite bands?</label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Mention the bands you like the most. (Each separated by a comma.)"></textarea>
+                    <div id="div-submit">
+                        <input type="submit" id="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </main>
+
+
+        <!-- Footer Section -->
+        <footer></footer>
+
+
+        <!-- Freecodecamp CDN - Run tests  -->
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </div>
+    
+</body>
+</html>
