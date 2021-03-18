@@ -52,7 +52,7 @@ For the name, email, and number input fields inside the form I can see correspon
 ## User Story :hash::one::five: :heavy_check_mark:
  Inside the form element, I am presented with a textarea at the end for additional comments.
 
- ## User Story :hash::one::five: :heavy_check_mark:
+ ## User Story :hash::one::six: :heavy_check_mark:
  Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 
 ### Preview in Codepen: 
