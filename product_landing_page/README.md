@@ -57,7 +57,13 @@ My product landing page should utilize CSS flexbox at least once.
 ### Preview in Codepen: 
 [ Build a Product Landing Page - FreeCodeCamp by Sarias ](https://codepen.io/sarias12/pen/ZEBdBYQ)
 
-![Screenshot](https://github.com/sarias12/freecodecamp_projects/blob/main/survey_form/survey_form.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/product_landing_page/image1.png)
+
+![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/product_landing_page/image2.png)
+
+![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/product_landing_page/image3.png)
+
+![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/product_landing_page/image4.png)
  
 ## Author ⭐️
 * **Sergio Steben Arias Quintero** - [sarias12](https://github.com/sarias12)
