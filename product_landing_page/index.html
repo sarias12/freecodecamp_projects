@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <img id="header-img" src="./images/1snull.png" alt="">
+        <label id="menu-icon" for="menu-toggle"><img src="./images/menu-rounded.png" alt=""></label>
+        <input type="checkbox" id="menu-toggle"/>
+
+        <!-- Navbar Menu -->
+        <nav id="nav-bar" >
+            <ul id="menu">
+                <li><a class="nav-link" href="#home-section">Home</a></li>
+                <li><a class="nav-link" href="#features-section">Features</a></li>
+                <li><a class="nav-link" href="#video-section">How It Works</a></li>
+                <li><a class="nav-link" href="#cards-section">Pricing</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Section for home -->
+        <div id="home-section">
+
+            <!-- Main title -->
+            <img id="dancer" src="./images/clip-dancer.png" alt="Dancer">
+            <h1 id="title">Lorem ipsum <span>dolor</span><br>sit amet.</h1>
+
+            <!-- Survey form-->
+            <section  id="form-section">
+                <h2>Lorem ipsum dolorsit amet.</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+                    <input id="submit" type="submit" value="Submit">
+                </form>
+            </section>
+            
+        </div>
+
+        <!-- Section for features -->
+        <div id="features-section">
+            <section >
+
+                <h2 id="features-title">Features</h2>
+
+                <article class="article article-left" id="article-1">
+                    <img src="./images/clip-web-design.png" alt="Getting more likes">
+                    <div>
+                        <h3>Getting more likes.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque culpa explicabo placeat nihil debitis accusamus?</p>
+                    </div>
+                </article>
+
+                <article class="article article-right" id="article-2">
+                    <img src="./images/clip-online-shopping-6.png" alt="Online shopping">
+                    <div>
+                        <h3>Online shopping</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, maxime.</p>
+                    </div>
+                </article>
+
+                <article class="article article-left" id="article-3">
+                    <img src="./images/clip-web-design.png" alt="Web design">
+                    <div>
+                        <h3>Web design</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae, iusto eos veniam omnis quos? Fugiat earum alias magni excepturi?</p>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+
+        <!-- Section for video -->
+        <div id="video-section">
+
+            <!--  Multimedia -->
+                <section>
+                    <h2>How It Works</h2>
+                    <div class="container">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/VwaqJy_clnc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+        </div>
+
+        <!-- Section for pricing -->
+        <div id="cards-section">
+            <section >
+
+                <h2 id="cards-title">Pricing</h2>
+
+                <div>
+
+                    <article class="card">
+                        <header>
+                            <h3>lorem</h3>
+                        </header>
+                        <h4>$100</h4>
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                        <footer>
+                            <button class="btn">SELECT</button>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <header>
+                            <h3>lorem</h3>
+                        </header>
+                        <h4>$500</h4>
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                        </ul>
+                        <footer>
+                            <button class="btn">SELECT</button>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <header>
+                            <h3>lorem</h3>
+                        </header>
+                        <h4>$1100</h4>
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                        </ul>
+                        <footer>
+                            <button class="btn">SELECT</button>
+                        </footer>
+                    </article>
+
+                </div>
+    
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <ul>
+            <li><a class="footer-link" href="#">Privacy</a></li>
+            <li><a class="footer-link" href="#">Terms</a></li>
+            <li><a class="footer-link" href="#">Contact</a></li>
+        </ul>
+        
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, officiis.</span>
+        
+    </footer>
+
+
+    <!-- Freecodecamp CDN - Run tests  -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+</body>
+</html>
