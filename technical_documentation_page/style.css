@@ -1,0 +1,165 @@
+@import url(https://github.com/necolas/normalize.css/blob/master/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+/* ---- Global Variables ----*/
+:root {
+    --first-color: #FFFFFF;
+    --second-color: #000000;
+    --third-color: #F7DF1E;
+    --fourth-color: #EDEDED;
+    --font-primary: 'Roboto', sans-serif;
+    --font-console: 'Inconsolata', monospace;
+}
+
+html {
+    font-family: var(--font-primary);
+    height: 100%;
+    color: var(--second-color);
+}
+
+body{
+    position: relative;
+    background-color: var(--first-color);
+    display: flex;
+    height: 100%;
+    margin: 0px;
+}
+
+/* ---- Header and Navbar ---- */
+
+#header {
+    font-weight: 700;
+    text-align: center;
+}
+
+#navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    min-height: 100%;
+    background-color: var(--first-color);
+}
+
+
+
+
+
+/* Fade anchors list for Freecodecamp requirements*/
+.nav-link {
+    display: none;
+}
+
+/* Menu */
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+fieldset input {
+    display: none;
+
+}
+
+fieldset label {
+    font-weight: bolder;
+    display: flex;
+    padding-left: 3em;
+    height: 40px;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+}
+
+/* Labels for checked inputs */
+
+input:checked + label  {
+    color: var(--first-color);
+    background-color: var(--second-color);
+    transition: 0.5s;
+}
+
+.logo {
+    max-width: 25%;
+}
+
+.logo  img{
+    max-width: 100%;
+}
+
+
+/* Hidden menu for Mobile version */
+
+#menu-toggle, #menu-icon {
+    display: none;
+}
+
+@media (max-width:792px) {
+    #navbar, #menu-toggle {
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    #navbar {
+        max-width: 0;
+        transition: all .2s ease;
+    }
+    
+    #menu-icon {
+        display: flex;
+        position: fixed;
+        margin: 0.5em;
+        z-index: 3;
+    }
+
+    #main-doc {
+        padding-left: 0px;
+        left: 0px;
+    }
+
+    #menu-toggle:checked + #navbar {
+        display: flex;
+        max-width: 300px;
+        z-index: 2;
+        transition: .2s;
+    }
+}
+
+/*---- Main Content  ----*/
+#main-doc {
+    padding-left: 2em;
+    position: absolute;
+    left: 300px;
+}
+
+.main-section {
+    min-height: 100vh;
+    padding: 2em;
+}
+
+.main-section > header {
+    border-bottom: solid 3px var(--third-color);
+}
+
+.main-section > article {
+    margin-top: 2em;
+    padding: 2em;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 15px;
+}
+
+code {
+    display: block;
+    padding: 1em;
+    border-radius: 15px;
+    background-color: var(--fourth-color);
+    font-family: var(--font-console);
+}
