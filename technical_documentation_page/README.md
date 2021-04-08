@@ -52,7 +52,7 @@ The navbar element should contain one header element which contains text that de
  My Technical Documentation page should use at least one media query..
 
 ### Preview in Codepen: 
-[ Build a Tribute Page - FreeCodeCamp by Sarias ](https://codepen.io/sarias12/full/RwKLqgr)
+[  Build a Technical Documentation Page - FreeCodeCamp by Sarias ](https://codepen.io/sarias12/full/RwKLqgr)
 
 ![Screenshot](https://github.com/sarias12/freecodecamp_projects/blob/main/tribute_fan_page/tribute_page.png?raw=true)
  
