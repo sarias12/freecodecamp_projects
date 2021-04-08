@@ -54,7 +54,7 @@ The navbar element should contain one header element which contains text that de
 ### Preview in Codepen: 
 [  Build a Technical Documentation Page - FreeCodeCamp by Sarias ](https://codepen.io/sarias12/full/RwKLqgr)
 
-![Screenshot](https://github.com/sarias12/freecodecamp_projects/blob/main/tribute_fan_page/tribute_page.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/technical_documentation_page/image1.PNG)
  
 ## Author ⭐️
 * **Sergio Steben Arias Quintero** - [sarias12](https://github.com/sarias12)
