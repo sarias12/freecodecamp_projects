@@ -1,69 +1,60 @@
-# Build a Product Landing Page :computer:
+# Build a Technical Documentation Page :computer:
 
 ### Objective: 
-Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/RKRbwL.
+Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/NdrKKL.
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
 You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
-## User Story :hash::one: :heavy_check_mark:
-My product landing page should have a header element with a corresponding id="header".
+## User Story :hash: :one: :white_check_mark:
+I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
 
-## User Story :hash::two: :heavy_check_mark:
-I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+## User Story :hash: :two: :white_check_mark:
+Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
 
-## User Story :hash::three: :heavy_check_mark:
-Within the #header element I can see a nav element with a corresponding id="nav-bar".
+## User Story :hash: :three: :white_check_mark:
+The first element within each .main-section should be a header element which contains text that describes the topic of that section.
 
-## User Story :hash::four: :heavy_check_mark:
-I can see at least three clickable elements inside the nav element, each with the class nav-link.
+## User Story :hash: :four: :white_check_mark:
+Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
 
-## User Story :hash::five: :heavy_check_mark:
-When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+## User Story :hash: :five: :white_check_mark:
+The .main-section elements should contain at least 10 p elements total (not each).
 
-## User Story :hash::six: :heavy_check_mark:
-I can watch an embedded product video with id="video".
+## User Story :hash: :six: :white_check_mark:
+The .main-section elements should contain at least 5 code elements total (not each).
 
-## User Story :hash::seven: :heavy_check_mark:
-My landing page has a form element with a corresponding id="form".
+## User Story :hash: :seven: :white_check_mark:
+The .main-section elements should contain at least 5 li items total (not each).
 
-## User Story :hash::eight: :heavy_check_mark:
-Within the form, there is an input field with id="email" where I can enter an email address.
+## User Story :hash: :eight: :white_check_mark:
+I can see a nav element with a corresponding id="navbar".
 
-## User Story :hash::nine: :heavy_check_mark:
-The #email input field should have placeholder text to let the user know what the field is for.
+## User Story :hash: :nine: :white_check_mark:
+The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
 
 ## User Story :hash::one::zero: :heavy_check_mark:
-The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+ Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
 
-## User Story :hash::one::one: :heavy_check_mark:
-Within the form, there is a submit input with a corresponding id="submit".
+ ## User Story :hash::one::one: :heavy_check_mark:
+ The header element in the navbar must come before any link (a) elements in the navbar.
 
-## User Story :hash::one::two: :heavy_check_mark:
-When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+ ## User Story :hash::one::two: :heavy_check_mark:
+ Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
+ ## User Story :hash::one::three: :heavy_check_mark:
+  When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
 
-## User Story :hash::one::three: :heavy_check_mark:
-The navbar should always be at the top of the viewport.
-
-## User Story :hash::one::four: :heavy_check_mark:
-My product landing page should have at least one media query.
+ ## User Story :hash::one::four: :heavy_check_mark:
+ On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
 
 ## User Story :hash::one::five: :heavy_check_mark:
-My product landing page should utilize CSS flexbox at least once.
-
-
+ My Technical Documentation page should use at least one media query..
 
 ### Preview in Codepen: 
-[ Build a Product Landing Page - FreeCodeCamp by Sarias ](https://codepen.io/sarias12/full/QWdEYOW)
+[ Build a Tribute Page - FreeCodeCamp by Sarias ](https://codepen.io/sarias12/full/RwKLqgr)
 
-![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/product_landing_page/image1.png)
-
-![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/product_landing_page/image2.PNG)
-
-![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/product_landing_page/image3.PNG)
-
-![Screenshot](https://raw.githubusercontent.com/sarias12/freecodecamp_projects/main/product_landing_page/image4.PNG)
+![Screenshot](https://github.com/sarias12/freecodecamp_projects/blob/main/tribute_fan_page/tribute_page.png?raw=true)
  
 ## Author ⭐️
 * **Sergio Steben Arias Quintero** - [sarias12](https://github.com/sarias12)
